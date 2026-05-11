@@ -1,0 +1,249 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Clear Crossroads",
+            "region": "Crossroads",
+            "category": [
+                "Stage Completion","Act I"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Chaos Canyon",
+            "region": "Chaos Canyon",
+            "category": [
+                "Stage Completion","Act I"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Glass Houses",
+            "region": "Glass Houses",
+            "category": [
+                "Stage Completion","Act I"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Rocket Arena",
+            "region": "Rocket Arena",
+            "category": [
+                "Stage Completion","Act I"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear The Doomspires",
+            "region": "The Doomspires",
+            "category": [
+                "Stage Completion","Act I"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Mellow Mansion",
+            "region": "Mellow Mansion",
+            "category": [
+                "Stage Completion","Untitled Initiation"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Haunted Mansion",
+            "region": "Haunted Mansion",
+            "category": [
+                "Stage Completion","Untitled Initiation"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Noob & JSON Inc.",
+            "region": "Noob & JSON Inc.",
+            "category": [
+                "Stage Completion","Test.exe"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Sigma Rizz Mansion ;))",
+            "region": "Sigma Riz Mansion ;))",
+            "category": [
+                "Stage Completion","Test.exe"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear OHIO",
+            "region": "OHIO",
+            "category": [
+                "Stage Completion","Test.exe"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Baseplat th Intermission =)",
+            "region": "Baseplat th Intermission =)",
+            "category": [
+                "Stage Completion","Test.exe"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Clear Dylan's World",
+            "region": "Dylan's World",
+            "category": [
+                "Stage Completion","Test.exe"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Sword",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Firebrand",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Katana",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Paintball Gun",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase BB Gun",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Freeze Ray",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Slingshot",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Scatterblaster",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Flamethrower",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Superball",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Cannonball",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Ninja Stars",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Rocket Launcher",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Multi-Rocket Launcher",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Bazooka",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Timebomb",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Subspace Tripmine",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Trowel",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Wrench",
+            "category": [
+                "Weapon Purchase","Base Weapon"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase Hammer",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Purchase ",
+            "category": [
+                "Weapon Purchase","Weapon Upgrade"
+            ],
+            "requires": ""
+        }
+    ]
+}
+
