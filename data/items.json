@@ -452,7 +452,7 @@
                 "Test.exe"
             ],
             "value": {
-                "Tix": 
+                "Tix": 700
             },
             "sort-key": "row-5-3",
             "progression": true
@@ -464,7 +464,7 @@
                 "Test.exe"
             ],
             "value": {
-                "Tix": 
+                "Tix": 700
             },
             "sort-key": "row-5-4",
             "progression": true
@@ -472,9 +472,9 @@
         {
             "name": "Accessory Slots",
             "classification_count": {
+                "progression + useful": 3,
                 "useful": 3,
-                "useful + filler": 3,
-                "filler": 3
+                "useful + filler": 3
             },
             "category": [
                 "Accessories","Accessory Slot"
