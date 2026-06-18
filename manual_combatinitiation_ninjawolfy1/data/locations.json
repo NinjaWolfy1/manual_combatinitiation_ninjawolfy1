@@ -2,6 +2,15 @@
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
+            "name": "Complete Act I",
+            "region": "The Doomspires",
+            "category": [
+                "Stage Completion", "Act I"
+            ],
+            "victory": true,
+            "requires": "CanReachLocation(Clear The Doomspires)"
+        },
+        {
             "name": "Clear Crossroads",
             "region": "Crossroads",
             "category": [
@@ -102,7 +111,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": "|@Base Weapon:3| AND |Sword| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Sword| AND |@Stage|"
         },
         {
             "name": "Purchase Firebrand",
@@ -123,7 +132,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": "|@Base Weapon:3| AND |Paintball Gun| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Paintball Gun| AND |@Stage|"
         },
         {
             "name": "Purchase BB Gun",
@@ -144,7 +153,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": "|@Base Weapon:3| AND |Slingshot| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Slingshot| AND |@Stage|"
         },
         {
             "name": "Purchase Scatterblaster",
@@ -165,7 +174,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": "|@Base Weapon:3| AND |Superball| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Superball| AND |@Stage|"
         },
         {
             "name": "Purchase Cannonball",
@@ -186,7 +195,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": "|@Base Weapon:3| AND |Rocket Launcher| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Rocket Launcher| AND |@Stage|"
         },
         {
             "name": "Purchase Multi-Rocket Launcher",
@@ -207,7 +216,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": "|@Base Weapon:3| AND |Timebomb| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Timebomb| AND |@Stage|"
         },
         {
             "name": "Purchase Subspace Tripmine",
@@ -221,7 +230,7 @@
             "category": [
                 "Weapon Purchase","Weapon Upgrade"
             ],
-            "requires": "|@Base Weapon:3| AND |Trowel| AND |@100 Tix|"
+            "requires": "|@Base Weapon:3| AND |Trowel| AND |@Stage|"
         },
         {
             "name": "Purchase Wrench",
@@ -236,6 +245,9 @@
                 "Weapon Purchase","Weapon Upgrade"
             ],
             "requires": ""
+        },
+        {
+            "name": "Complete"
         }
     ]
 }

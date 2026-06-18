@@ -331,9 +331,6 @@
                 "Stage",
                 "Act I"
             ],
-            "value": {
-                "Tix": 150
-            },
             "sort-key": "row-3-0",
             "progression": true
         },
@@ -343,9 +340,6 @@
                 "Stage",
                 "Act I"
             ],
-            "value": {
-                "Tix": 300
-            },
             "sort-key": "row-3-1",
             "progression": true
         },
@@ -355,9 +349,6 @@
                 "Stage",
                 "Act I"
             ],
-            "value": {
-                "Tix": 550
-            },
             "sort-key": "row-3-2",
             "progression": true
         },
@@ -367,9 +358,6 @@
                 "Stage",
                 "Act I"
             ],
-            "value": {
-                "Tix": 850
-            },
             "sort-key": "row-3-3",
             "progression": true
         },
@@ -379,9 +367,6 @@
                 "Stage",
                 "Act I"
             ],
-            "value": {
-                "Tix": 1000
-            },
             "sort-key": "row-3-4",
             "progression": true
         },
@@ -391,9 +376,6 @@
                 "Stage",
                 "Untitled Initiation"
             ],
-            "value": {
-                "Tix": 150
-            },
             "sort-key": "row-4-0",
             "progression": true
         },
@@ -401,11 +383,9 @@
             "name": "Untitled Initiation - Haunted Mansion",
             "category": [
                 "Stage",
-                "Untitled Initiation"
+                "Untitled Initiation",
+                "200 Tix"
             ],
-            "value": {
-                "Tix": 200
-            },
             "sort-key": "row-4-1",
             "progression": true
         },
@@ -415,9 +395,6 @@
                 "Stage",
                 "Test.exe"
             ],
-            "value": {
-                "Tix": 150
-            },
             "sort-key": "row-5-0",
             "progression": true
         },
@@ -427,9 +404,6 @@
                 "Stage",
                 "Test.exe"
             ],
-            "value": {
-                "Tix": 300
-            },
             "sort-key": "row-5-1",
             "progression": true
         },
@@ -439,9 +413,6 @@
                 "Stage",
                 "Test.exe"
             ],
-            "value": {
-                "Tix": 550
-            },
             "sort-key": "row-5-2",
             "progression": true
         },
@@ -451,9 +422,6 @@
                 "Stage",
                 "Test.exe"
             ],
-            "value": {
-                "Tix": 700
-            },
             "sort-key": "row-5-3",
             "progression": true
         },
@@ -463,9 +431,6 @@
                 "Stage",
                 "Test.exe"
             ],
-            "value": {
-                "Tix": 700
-            },
             "sort-key": "row-5-4",
             "progression": true
         },
