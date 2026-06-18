@@ -102,7 +102,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Sword| AND |@100 Tix|"
         },
         {
             "name": "Purchase Firebrand",
@@ -123,7 +123,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Paintball Gun| AND |@100 Tix|"
         },
         {
             "name": "Purchase BB Gun",
@@ -144,7 +144,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Slingshot| AND |@100 Tix|"
         },
         {
             "name": "Purchase Scatterblaster",
@@ -165,7 +165,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Superball| AND |@100 Tix|"
         },
         {
             "name": "Purchase Cannonball",
@@ -186,7 +186,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Rocket Launcher| AND |@100 Tix|"
         },
         {
             "name": "Purchase Multi-Rocket Launcher",
@@ -207,7 +207,7 @@
             "category": [
                 "Weapon Purchase","Base Weapon"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Timebomb| AND |@100 Tix|"
         },
         {
             "name": "Purchase Subspace Tripmine",
@@ -221,7 +221,7 @@
             "category": [
                 "Weapon Purchase","Weapon Upgrade"
             ],
-            "requires": ""
+            "requires": "|@Base Weapon:3| AND |Trowel| AND |@100 Tix|"
         },
         {
             "name": "Purchase Wrench",
@@ -232,13 +232,6 @@
         },
         {
             "name": "Purchase Hammer",
-            "category": [
-                "Weapon Purchase","Weapon Upgrade"
-            ],
-            "requires": ""
-        },
-        {
-            "name": "Purchase ",
             "category": [
                 "Weapon Purchase","Weapon Upgrade"
             ],
