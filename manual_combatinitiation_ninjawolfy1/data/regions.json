@@ -1,68 +1,18 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "Hub":{
-        "connects_to": ["Crossroads","Mellow Mansion","Noob & JSON Inc.","Chaos Canyon","Glass Houses","Rocket Arena","The Doomspires","Haunted Mansion","Sigma Rizz Mansion ;))","OHIO","Baseplat th Intermission =)","Dylan's World"],
-        "requires": "",
+    "ExampleRegion":{
+        "connects_to": ["Second Region"],
+        "requires": "|Ryu| or {YamlCompare(Example_Range >= example )}",
         "starting": true
     },
-    "Crossroads":{
-        "connects_to": ["Chaos Canyon"],
-        "requires": "{OptAll(|Progressive Stage (Act I)| AND |Act I - Crossroads|)}",
-        "starting": true
+    "Second Region": {
+        "requires": "|@Characters:1|",
+        "connects_to": ["Third Region"],
+        "exit_requires": {
+            "Third Region": "|@Characters:5|"
+        }
     },
-    "Chaos Canyon":{
-        "connects_to": ["Glass Houses"],
-        "requires": "{OptAll(|Progressive Stage (Act I):2| AND |Act I - Chaos Canyon|)}",
-        "starting": true
-    },
-    "Glass Houses":{
-        "connects_to": ["Rocket Arena"],
-        "requires": "{OptAll(|Progressive Stage (Act I):3| AND |Act I - Glass Houses|)}",
-        "starting": true
-    },
-    "Rocket Arena":{
-        "connects_to": ["The Doomspires"],
-        "requires": "{OptAll(|Progressive Stage (Act I):4| AND |Act I - Rocket Arena|)}",
-        "starting": true
-    },
-    "The Doomspires":{
-        "connects_to": [],
-        "requires": "{OptAll(|Progressive Stage (Act I):5| AND |Act I - The Doomspires|)}",
-        "starting": true
-    },
-    "Mellow Mansion":{
-        "connects_to": ["Haunted Mansion"],
-        "requires": "{OptAll(|Progressive Stage (Untitled Initiation)| AND |Untitled Initiation - Mellow Mansion|)}",
-        "starting": true
-    },
-    "Haunted Mansion":{
-        "connects_to": [],
-        "requires": "{OptAll(|Progressive Stage (Untitled Initiation):2| AND |Untitled Initiation - Haunted Mansion|)}",
-        "starting": true
-    },
-    "Noob & JSON Inc.":{
-        "connects_to": ["Sigma Rizz Mansion ;))"],
-        "requires": "{OptAll(|Progressive Stage (Test.exe)| AND |Test.exe - Noob & JSON Inc.|)}",
-        "starting": true
-    },
-    "Sigma Rizz Mansion ;))":{
-        "connects_to": ["OHIO"],
-        "requires": "{OptAll(|Progressive Stage (Test.exe):2| AND |Test.exe - Sigma Rizz Mansion ;))|)}",
-        "starting": true
-    },
-    "OHIO":{
-        "connects_to": ["Baseplat th Intermission =)"],
-        "requires": "{OptAll(|Progressive Stage (Test.exe):3| AND |Test.exe - OHIO|)}",
-        "starting": true
-    },
-    "Baseplat th Intermission =)":{
-        "connects_to": ["Dylan's World"],
-        "requires": "{OptAll(|Progressive Stage (Test.exe):4| AND |Test.exe - Baseplat th Intermission =)|)}",
-        "starting": true
-    },
-    "Dylan's World":{
-        "connects_to": [],
-        "requires": "{OptAll(|Progressive Stage (Test.exe):5| AND |Test.exe - Dylan's World|)}",
-        "starting": true
+    "Third Region": {
+        "connects_to": []
     }
 }

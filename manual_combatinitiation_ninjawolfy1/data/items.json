@@ -2,465 +2,464 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
     "data": [
         {
-            "name": "Sword",
-            "category": [
-                "Weapon",
-                "Primary",
-                "Base Weapon",
-                "Sword"
-            ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-0-0",
-            "progression + useful": true
+            "name": "Item Name for OptionCount Example",
+            "count": 5,
+            "progression": true
         },
         {
-            "name": "Paintball Gun",
+            "name": "Jill",
             "category": [
-                "Weapon",
-                "Primary",
-                "Base Weapon",
-                "Paintball Gun"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
+            "value": {"star": 5, "coins": 3},
             "sort-key": "row-0-1",
-            "progression + useful": true
+            "classification_count": {"useful + progression": 1, "useful": 1},
+            "_comment": "In this example a copy of the 'Jill' item will be created that is useful & progression and another will be created just useful"
         },
         {
-            "name": "Slingshot",
+            "name": "Shuma-Gorath",
             "category": [
-                "Weapon",
-                "Primary",
-                "Base Weapon",
-                "Slingshot"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-0-2",
-            "progression + useful": true
+            "value": {"star": 5},
+            "progression": true,
+            "sort-key": "row-0-8"
         },
         {
-            "name": "Superball",
+            "name": "Nemesis T-Type",
             "category": [
-                "Weapon",
-                "Primary",
-                "Base Weapon",
-                "Superball"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-0-3",
-            "progression + useful": true
-        },
-        {
-            "name": "Rocket Launcher",
-            "category": [
-                "Weapon",
-                "Secondary",
-                "Base Weapon",
-                "Rocket Launcher"
-            ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-0-4",
-            "progression + useful": true
-        },
-        {
-            "name": "Timebomb",
-            "category": [
-                "Weapon",
-                "Secondary",
-                "Base Weapon",
-                "Timebomb"
-            ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-0-5",
-            "progression + useful": true
-        },
-        {
-            "name": "Trowel",
-            "category": [
-                "Weapon",
-                "Secondary",
-                "Base Weapon",
-                "Trowel"
-            ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-0-6",
-            "progression + useful": true
+            "value": {"coins": 7},
+            "progression": true,
+            "sort-key": "row-1-1"
         },
         {
             "name": "Firebrand",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Sword"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-0",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-2"
         },
         {
-            "name": "Katana",
+            "name": "Strider Hiryu",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Sword"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-0",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-3"
         },
         {
-            "name": "BB Gun",
+            "name": "Phoenix Wright",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Paintball Gun"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-1",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-4"
         },
         {
-            "name": "Freeze Ray",
+            "name": "Nova",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Paintball Gun"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-1",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-5"
         },
         {
-            "name": "Scatterblaster",
+            "name": "Ghost Rider",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Slingshot"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-2",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-6"
         },
         {
-            "name": "Flamethrower",
+            "name": "Hawkeye",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Slingshot"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-2",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-7"
         },
         {
-            "name": "Cannonball",
+            "name": "Doctor Strange",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Superball"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-3",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-1-8"
         },
         {
-            "name": "Ninja Stars",
+            "name": "Chris",
             "category": [
-                "Weapon",
-                "Primary",
-                "Weapon Upgrade",
-                "Superball"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-3",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-1"
         },
         {
-            "name": "Multi-Rocket Launcher",
+            "name": "Arthur",
             "category": [
-                "Weapon",
-                "Secondary",
-                "Weapon Upgrade",
-                "Rocket Launcher"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-4",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-2"
         },
         {
-            "name": "Bazooka",
+            "name": "Frank West",
             "category": [
-                "Weapon",
-                "Secondary",
-                "Weapon Upgrade",
-                "Rocket Launcher"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-4",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-3"
         },
         {
-            "name": "Subspace Tripmine",
+            "name": "Vergil",
             "category": [
-                "Weapon",
-                "Secondary",
-                "Weapon Upgrade",
-                "Timebomb"
+                "Characters",
+                "Left Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-5",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-4"
         },
         {
-            "name": "Explosive Pinata",
+            "name": "Iron Fist",
             "category": [
-                "Weapon",
-                "Secondary",
-                "Weapon Upgrade",
-                "Timebomb"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-5",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-5"
         },
         {
-            "name": "Wrench",
+            "name": "Rocket Raccoon",
             "category": [
-                "Weapon",
-                "Secondary",
-                "Weapon Upgrade",
-                "Trowel"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-1-6",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-6"
         },
         {
-            "name": "Hammer",
+            "name": "Captain America",
             "category": [
-                "Weapon",
-                "Secondary",
-                "Weapon Upgrade",
-                "Trowel"
+                "Characters",
+                "Right Side"
             ],
-            "value": {
-                "": ""
-            },
-            "sort-key": "row-2-6",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-2-7"
         },
         {
-            "name": "Progressive Stage (Act I)",
-            "count": 5,
+            "name": "Dormammu",
             "category": [
-                "Progressive Stage",
-                "Act I"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-3-0",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-2-8"
         },
         {
-            "name": "Progressive Stage (Untitled Initiation)",
-            "count": 2,
+            "name": "Wesker",
             "category": [
-                "Progressive Stage",
-                "Untitled Initiation"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-3-1",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-1"
         },
         {
-            "name": "Progressive Stage (Test.exe)",
-            "count": 5,
+            "name": "Zero",
             "category": [
-                "Progressive Stage",
-                "Test.exe"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-3-2",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-2"
         },
         {
-            "name": "Act I - Crossroads",
+            "name": "Ryu",
             "category": [
-                "Stage",
-                "Act I"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-3-0",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-3"
         },
         {
-            "name": "Act I - Chaos Canyon",
+            "name": "Dante",
             "category": [
-                "Stage",
-                "Act I"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-3-1",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-4"
         },
         {
-            "name": "Act I - Glass Houses",
+            "name": "Deadpool",
             "category": [
-                "Stage",
-                "Act I"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-3-2",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-5"
         },
         {
-            "name": "Act I - Rocket Arena",
+            "name": "Wolverine",
             "category": [
-                "Stage",
-                "Act I"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-3-3",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-6"
         },
         {
-            "name": "Act I - The Doomspires",
+            "name": "Iron Man",
             "category": [
-                "Stage",
-                "Act I"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-3-4",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-7"
         },
         {
-            "name": "Untitled Initiation - Mellow Mansion",
+            "name": "Doctor Doom",
             "category": [
-                "Stage",
-                "Untitled Initiation"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-4-0",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-3-8"
         },
         {
-            "name": "Untitled Initiation - Haunted Mansion",
+            "name": "Morrigan",
             "category": [
-                "Stage",
-                "Untitled Initiation",
-                "200 Tix"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-4-1",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-4-1"
         },
         {
-            "name": "Test.exe - Noob & JSON Inc.",
+            "name": "Tron",
             "category": [
-                "Stage",
-                "Test.exe"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-5-0",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-4-2"
         },
         {
-            "name": "Test.exe - Sigma Rizz Mansion ;))",
+            "name": "Chun-Li",
             "category": [
-                "Stage",
-                "Test.exe"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-5-1",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-4-3"
         },
         {
-            "name": "Test.exe - OHIO",
+            "name": "Trish",
             "category": [
-                "Stage",
-                "Test.exe"
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": "row-5-2",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-4-4"
         },
         {
-            "name": "Test.exe - Baseplat th Intermission =)",
+            "name": "X-23",
             "category": [
-                "Stage",
-                "Test.exe"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-5-3",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-4-5"
         },
         {
-            "name": "Test.exe - Dylan's World",
+            "name": "Storm",
             "category": [
-                "Stage",
-                "Test.exe"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-5-4",
-            "progression": true
+            "progression": true,
+            "sort-key": "row-4-6"
         },
         {
-            "name": "Accessory Slots",
-            "classification_count": {
-                "progression + useful": 3,
-                "useful": 3,
-                "useful + filler": 3
-            },
+            "name": "Thor",
             "category": [
-                "Accessories","Accessory Slot"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-6-0"
+            "progression": true,
+            "sort-key": "row-4-7"
         },
         {
-            "name": "Budget Points",
-            "count": 3,
+            "name": "M.O.D.O.K.",
             "category": [
-                "Accessories","Budget Point"
+                "Characters",
+                "Right Side"
             ],
-            "sort-key": "row-6-1",
-            "progression + useful": true
+            "progression": true,
+            "sort-key": "row-4-8"
         },
         {
-            "name": "",
+            "name": "Felicia",
             "category": [
-                ""
+                "Characters",
+                "Left Side"
             ],
-            "sort-key": ""
+            "progression": true,
+            "sort-key": "row-5-1"
+        },
+        {
+            "name": "Spencer",
+            "category": [
+                "Characters",
+                "Left Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-2"
+        },
+        {
+            "name": "Akuma",
+            "category": [
+                "Characters",
+                "Left Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-3"
+        },
+        {
+            "name": "Viewtiful Joe",
+            "category": [
+                "Characters",
+                "Left Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-4"
+        },
+        {
+            "name": "Spider-Man",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-5"
+        },
+        {
+            "name": "Sentinel",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-6"
+        },
+        {
+            "name": "Hulk",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-7"
+        },
+        {
+            "name": "Super-Skrull",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-5-8"
+        },
+        {
+            "name": "Hsien-Ko",
+            "category": [
+                "Characters",
+                "Left Side",
+                "Trash"
+            ],
+            "progression": true,
+            "sort-key": "row-6-1"
+        },
+        {
+            "name": "Haggar",
+            "category": [
+                "Characters",
+                "Left Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-2"
+        },
+        {
+            "name": "C. Viper",
+            "category": [
+                "Characters",
+                "Left Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-3"
+        },
+        {
+            "name": "Amaterasu",
+            "category": [
+                "Characters",
+                "Left Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-4"
+        },
+        {
+            "name": "Phoenix",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-5"
+        },
+        {
+            "name": "Magneto",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-6"
+        },
+        {
+            "name": "She-Hulk",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-7"
+        },
+        {
+            "name": "Taskmaster",
+            "category": [
+                "Characters",
+                "Right Side"
+            ],
+            "progression": true,
+            "sort-key": "row-6-8"
         }
     ]
 }
