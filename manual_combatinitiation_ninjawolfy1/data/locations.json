@@ -2,286 +2,492 @@
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Example_Range decide the amount of items required for this location",
-            "requires": "{OptionCount(Item Name for OptionCount Example, Example_Range)}"
+            "name": "Beat the Campaign",
+            "region": "The Doomspires",
+            "category": [
+                "Act I"
+            ],
+            "requires": "|@Act I:all|",
+            "victory": true
         },
         {
-            "name": "Beat the Game - Ryu",
-            "category": ["Starter Team", "Left Side"],
-            "region": "ExampleRegion"
+            "name": "Complete Stage 1",
+            "region": "Crossroads",
+            "category": [
+                "Stage Clear","Act I","Achievements","Major Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Chun-Li",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Chun-Li| or {YamlCompare(Example_Choice == 1)}"
+            "name": "Complete Stage 2",
+            "region": "Chaos Canyon",
+            "category": [
+                "Stage Clear","Act I","Achievements","Major Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Akuma",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Akuma| or {YamlCompare(Example_Toggle != True)}"
-        },
-
-        {
-            "name": "Beat the Game - Jill",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Jill| and {ItemValue(star:5)}"
+            "name": "Complete Stage 3",
+            "region": "Glass Houses",
+            "category": [
+                "Stage Clear","Act I","Achievements","Major Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Shuma-Gorath",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Shuma-Gorath|",
-            "hint_entrance": "Unlock Shuma-Gorath"
+            "name": "Complete Stage 4",
+            "region": "Rocket Arena",
+            "category": [
+                "Stage Clear","Act I","Achievements","Major Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Nemesis T-Type",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Nemesis T-Type|"
+            "name": "Complete Stage 5",
+            "region": "The Doomspires",
+            "category": [
+                "Stage Clear","Act I","Achievements","Major Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Firebrand",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Firebrand|"
+            "name": "Complete Mellow Mansion",
+            "region": "Mellow Mansion",
+            "category": [
+                "Stage Clear","Untitled Initiation"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Strider Hiryu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Strider Hiryu|"
+            "name": "Complete Haunted Mansion",
+            "region": "Haunted Mansion",
+            "category": [
+                "Stage Clear","Untitled Initiation"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Phoenix Wright",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Phoenix Wright|"
+            "name": "Beat Untitled Initiation",
+            "region": "Haunted Mansion",
+            "category": [
+                "Stage Clear","Untitled Initiation","Achievements","Minor Achievements"
+            ],
+            "requires": "|@Untitled Initiation:all|"
         },
         {
-            "name": "Beat the Game - Nova",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Nova|"
+            "name": "Oh boy, a new toy!",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": "|@Base:3|"
         },
         {
-            "name": "Beat the Game - Ghost Rider",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Ghost Rider|"
+            "name": "Upgrade",
+            "region": "",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Hawkeye",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hawkeye|"
+            "name": "XTREME!!",
+            "region": "",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": "|@Stage|"
         },
         {
-            "name": "Beat the Game - Doctor Strange",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Strange|"
+            "name": "Getting Crafty",
+            "region": "",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Chris",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Chris|"
+            "name": "Ouch",
+            "region": "",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Arthur",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Arthur|"
+            "name": "Embarrassment",
+            "region": "",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Frank West",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Frank West|"
+            "name": "One out of Many",
+            "region": "",
+            "category": [
+                "Achievements","Minor Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Vergil",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Vergil|"
+            "name": "Not a Scratch",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Iron Fist",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Fist|"
+            "name": "Perfection",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Rocket Raccoon",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Rocket Raccoon|"
+            "name": "XTREME Streak",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": "({CanReachLocation(Complete Stage 3)} AND {OptAll((|Chaos Canyon| AND (|Crossroads| OR |Rocket Arena|)) OR (|Rocket Arena| AND |The Doomspires|))}"
         },
         {
-            "name": "Beat the Game - Captain America",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Captain America|"
+            "name": "XTREME Crossroads",
+            "region": "Crossroads",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Dormammu",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Dormammu|"
+            "name": "XTREME Chaos Canyon",
+            "region": "Chaos Canyon",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Wesker",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Wesker|"
+            "name": "XTREME Glass Houses",
+            "region": "Glass Houses",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Zero",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Zero|"
+            "name": "XTREME Rocket Arena",
+            "region": "Rocket Arena",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Dante",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Dante|"
+            "name": "XTREME Doomspires",
+            "region": "The Doomspires",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Deadpool",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Deadpool| or {YamlEnabled(free_deadpool)}"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Wolverine",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Wolverine|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Iron Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Man|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Doctor Doom",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Doom|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Morrigan",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Morrigan|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Tron",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Tron|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Trish",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Trish|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - X-23",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|X-23|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Storm",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Storm|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Thor",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Thor|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - M.O.D.O.K.",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|M.O.D.O.K.|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Felicia",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Felicia|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Spencer",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Spencer|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Viewtiful Joe",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Viewtiful Joe|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Spider-Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Spider-Man|",
-            "prehint": true
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Sentinel",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Sentinel|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hulk|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Super-Skrull",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Super-Skrull|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Hsien-Ko",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Hsien-Ko|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Haggar",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Haggar|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - C. Viper",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|C. Viper|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Amaterasu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Amaterasu|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Phoenix",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Phoenix|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Magneto",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Magneto|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - She-Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|She-Hulk|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Beat the Game - Taskmaster",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Taskmaster|"
-        },
-
-        {
-            "name": "We Saved the World!",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Marvel event| and |Capcom event|"
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Marvel%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Marvel event|"
+            "name": "Not Gonna Sugarcoat It",
+            "region": "Crossroads",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
         },
         {
-            "name": "Capcom%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Capcom event|"
+            "name": "Davy Jones's Locker",
+            "region": "Chaos Canyon",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": "|Sword| OR |Paintball Gun| OR |Rocket Launcher|"
         },
         {
-            "name": "Stars%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "{ItemValue(star:10)} and {ItemValue(coins:10)}"
+            "name": "Honorbound",
+            "region": "Glass Houses",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": "|Sword|"
+        },
+        {
+            "name": "Checkmate",
+            "region": "Rocket Arena",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Need 4 Speed",
+            "region": "Crossroads",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Dunesday",
+            "region": "Chaos Canyon",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Through Fire & Flames",
+            "region": "",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Solo Untitled Initiation",
+            "region": "Haunted Mansion",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Xtreme Untitled Initiation",
+            "region": "Haunted Mansion",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "Bloxxers Untitled Initiation",
+            "region": "Haunted Mansion",
+            "category": [
+                "Achievements","Completionist Achievements"
+            ],
+            "requires": ""
+        },
+        {
+            "name": "",
+            "region": "",
+            "category": [
+                "Achievements"
+            ],
+            "requires": ""
         }
     ]
 }

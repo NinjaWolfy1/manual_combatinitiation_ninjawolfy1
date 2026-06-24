@@ -41,6 +41,6 @@
       ]
     }
   ],
-  "death_link": false,
-  "starting_index": 1
+  "death_link": true,
+  "starting_index": 0
 }
